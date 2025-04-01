@@ -134,7 +134,6 @@ export default function DashboardPage() {
               className="h-6 w-6 text-neutral-800 dark:text-neutral-200 cursor-pointer"
               onClick={() => setMobileMenuOpen(true)}
             />
-            <span className="font-semibold text-lg">Applai</span>
           </div>
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
