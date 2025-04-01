@@ -14,6 +14,8 @@ import {
 } from "@tabler/icons-react";
 import Link from "next/link";
 import { motion, AnimatePresence } from "motion/react";
+import { useRouter } from "next/navigation";
+import { supabase } from "@/utils/supabase-client";
 
 import { Sidebar, SidebarBody, SidebarLink } from "@/components/ui/sidebar";
 import { Button } from "@/components/ui/button";
@@ -69,6 +71,13 @@ export default function DashboardPage() {
       status: "Not Applied",
     },
   ]);
+
+  const router = useRouter();
+
+  const handleLogout = async () => {
+    await supabase.auth.signOut();
+    router.push("/");
+  };
 
   const links = [
     {
@@ -154,7 +163,10 @@ export default function DashboardPage() {
                 <IconSettings className="h-4 w-4" />
                 <span>Settings</span>
               </DropdownMenuItem>{" "}
-              <DropdownMenuItem className="text-destructive flex items-center gap-2">
+              <DropdownMenuItem
+                className="text-destructive flex items-center gap-2"
+                onClick={handleLogout}
+              >
                 <IconLogout className="h-4 w-4" />
                 <span>Logout</span>
               </DropdownMenuItem>
@@ -248,7 +260,10 @@ export default function DashboardPage() {
                     <IconSettings className="h-4 w-4" />
                     <span>Settings</span>
                   </DropdownMenuItem>
-                  <DropdownMenuItem className="text-destructive flex items-center gap-2">
+                  <DropdownMenuItem
+                    className="text-destructive flex items-center gap-2"
+                    onClick={handleLogout}
+                  >
                     <IconLogout className="h-4 w-4" />
                     <span>Logout</span>
                   </DropdownMenuItem>
