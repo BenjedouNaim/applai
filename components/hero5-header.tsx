@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import React from "react";
 import { cn } from "@/lib/utils";
 import { supabase } from "@/utils/supabase-client";
+import { ModeToggle } from "./ui/toggel";
 
 const menuItems = [
   { name: "Features", href: "#link" },
@@ -131,6 +132,7 @@ export const HeroHeader = () => {
                         <span>Sign Up</span>
                       </Link>
                     </Button>
+                    <ModeToggle/>
                   </>
                 )}
                 {isLoggedIn && (
