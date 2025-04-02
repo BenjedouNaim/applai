@@ -74,7 +74,7 @@ export default function LoginPage() {
               <Logo />
             </Link>
             <h1 className="mb-1 mt-4 text-xl font-semibold">
-              Sign In to Tailus UI
+              Sign In to Applai
             </h1>
             <p className="text-sm">Welcome back! Sign in to continue</p>
           </div>

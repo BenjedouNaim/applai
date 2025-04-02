@@ -1,15 +1,16 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Shield, Users } from "lucide-react";
+import { Bold, Shield, Users } from "lucide-react";
 
 export default function FeaturesSection() {
   return (
     <section className="py-16 md:py-32 dark:bg-transparent">
       <div className="@container mx-auto max-w-5xl px-6">
         <div className="text-center mb-12">
-            <h1 className="text-4xl font-bold">Our Features</h1>
-            <p className="text-lg text-gray-600 mt-4">
-                Discover the amazing features that make our product stand out.
-            </p>
+          <h1 className="text-4xl font-bold">Our Features</h1>
+          <p className="text-lg  mt-4">
+            Discover how <b>Applai</b> helps you land your dream job with
+            AI-powered personalization.
+          </p>
         </div>
         <div className="relative">
           <div className="relative z-10 grid grid-cols-6 gap-3">
@@ -32,7 +33,7 @@ export default function FeaturesSection() {
                   </span>
                 </div>
                 <h2 className="mt-6 text-center text-3xl font-semibold">
-                  Customizable
+                  Personalized
                 </h2>
               </CardContent>
             </Card>
@@ -92,11 +93,12 @@ export default function FeaturesSection() {
                 </div>
                 <div className="relative z-10 mt-6 space-y-2 text-center">
                   <h2 className="group-hover:text-secondary-950 text-lg font-medium transition dark:text-white">
-                    Secure by default
+                    AI-Powered Resume Building
                   </h2>
                   <p className="text-foreground">
-                    Provident fugit and vero voluptate. magnam magni doloribus
-                    dolores voluptates a sapiente nisi.
+                    Our advanced AI analyzes job descriptions to create
+                    perfectly tailored resumes that highlight your most relevant
+                    skills and experience.
                   </p>
                 </div>
               </CardContent>
@@ -187,11 +189,12 @@ export default function FeaturesSection() {
                 </div>
                 <div className="relative z-10 mt-14 space-y-2 text-center">
                   <h2 className="text-lg font-medium transition">
-                    Faster than light
+                    Lightning-Fast Applications
                   </h2>
                   <p className="text-foreground">
-                    Provident fugit vero voluptate. magnam magni doloribus
-                    dolores voluptates inventore nisi.
+                    Generate job-specific resumes and cover letters in minutes,
+                    not hours. Apply to more positions with customized documents
+                    quickly.
                   </p>
                 </div>
               </CardContent>
@@ -204,11 +207,12 @@ export default function FeaturesSection() {
                   </div>
                   <div className="space-y-2">
                     <h2 className="group-hover:text-secondary-950 text-lg font-medium text-zinc-800 transition dark:text-white">
-                      Faster than light
+                      ATS-Optimized Documents
                     </h2>
                     <p className="text-foreground">
-                      Provident fugit vero voluptate. Voluptates a sapiente
-                      inventore nisi.
+                      Our AI ensures your resume passes through Applicant
+                      Tracking Systems by incorporating the right keywords and
+                      formatting.
                     </p>
                   </div>
                 </div>
@@ -269,11 +273,12 @@ export default function FeaturesSection() {
                   </div>
                   <div className="space-y-2">
                     <h2 className="text-lg font-medium transition">
-                      Keep your loved ones safe
+                      Increased Interview Chances
                     </h2>
                     <p className="text-foreground">
-                      Voluptate. magnam magni doloribus dolores voluptates a
-                      sapiente inventore nisi.
+                      Users of applai report up to 3x more interview callbacks
+                      with our perfectly tailored application documents for each
+                      job opportunity.
                     </p>
                   </div>
                 </div>
@@ -281,12 +286,12 @@ export default function FeaturesSection() {
                   <div className="relative flex h-full flex-col justify-center space-y-6 py-6">
                     <div className="relative flex w-[calc(50%+0.875rem)] items-center justify-end gap-2">
                       <span className="block h-fit rounded border px-2 py-1 text-xs shadow-sm">
-                        Likeur
+                        B. Naim
                       </span>
                       <div className="ring-background size-7 ring-4">
                         <img
                           className="size-full rounded-full"
-                          src="https://avatars.githubusercontent.com/u/102558960?v=4"
+                          src="https://avatars.githubusercontent.com/u/138169225?v=4"
                           alt=""
                         />
                       </div>
@@ -295,17 +300,17 @@ export default function FeaturesSection() {
                       <div className="ring-background size-8 ring-4">
                         <img
                           className="size-full rounded-full"
-                          src="https://avatars.githubusercontent.com/u/47919550?v=4"
+                          src="https://avatars.githubusercontent.com/u/189537974?v=4"
                           alt=""
                         />
                       </div>
                       <span className="block h-fit rounded border px-2 py-1 text-xs shadow-sm">
-                        M. Irung
+                        B. Fedi
                       </span>
                     </div>
                     <div className="relative flex w-[calc(50%+0.875rem)] items-center justify-end gap-2">
                       <span className="block h-fit rounded border px-2 py-1 text-xs shadow-sm">
-                        B. Ng
+                        B. Abdu
                       </span>
                       <div className="ring-background size-7 ring-4">
                         <img

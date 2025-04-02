@@ -119,4 +119,27 @@
   body {
     @apply bg-background text-foreground;
   }
+  :root {
+    --color-1: 0 100% 63%;
+    --color-2: 270 100% 63%;
+    --color-3: 210 100% 63%;
+    --color-4: 195 100% 63%;
+    --color-5: 90 100% 63%;
+    --speed: 1s;
+  }
+}
+
+@layer utilities {
+  .animate-rainbow {
+    animation: rainbow var(--speed, 2s) infinite linear;
+  }
+
+  @keyframes rainbow {
+    0% {
+      background-position: 0%;
+    }
+    100% {
+      background-position: 200%;
+    }
+  }
 }

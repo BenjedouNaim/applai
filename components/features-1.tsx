@@ -8,11 +8,11 @@ export default function Features() {
       <div className="@container mx-auto max-w-5xl px-6">
         <div className="text-center">
           <h2 className="text-balance text-6xl font-semibold lg:text-5xl">
-            Built to cover your needs
+            Streamline Your Job Search
           </h2>
           <p className="mt-4">
-            Libero sapiente aliquam quibusdam aspernatur, praesentium iusto
-            repellendus.
+            Automate your job application process with AI-powered, personalized
+            documents tailored to each position.
           </p>
         </div>
         <div className="@min-4xl:max-w-full @min-4xl:grid-cols-3 mx-auto mt-8 grid max-w-sm gap-6 *:text-center md:mt-16">
@@ -27,8 +27,9 @@ export default function Features() {
 
             <CardContent>
               <p className="text-sm">
-                Extensive customization options, allowing you to tailor every
-                aspect to meet your specific needs.
+                Tailor your CV and cover letter for each job application with
+                specific keywords and relevant experience that match the
+                position.
               </p>
             </CardContent>
           </Card>
@@ -44,8 +45,9 @@ export default function Features() {
 
             <CardContent>
               <p className="mt-3 text-sm">
-                From design elements to functionality, you have complete control
-                to create a unique and personalized experience.
+                Edit any AI-generated content to perfectly match your career
+                journey while maintaining your personal voice and professional
+                style.
               </p>
             </CardContent>
           </Card>
@@ -61,8 +63,9 @@ export default function Features() {
 
             <CardContent>
               <p className="mt-3 text-sm">
-                Elements to functionality, you have complete control to create a
-                unique experience.
+                Our advanced AI analyzes job descriptions to create perfectly
+                matched resumes and cover letters that get past applicant
+                tracking systems.
               </p>
             </CardContent>
           </Card>
